@@ -1,0 +1,22 @@
+{
+  "jumlah_alamat": 234,
+  "ukuran_vocab": 909,
+  "panjang_sekuens_maks": 9,
+  "panjang_sekuens_min": 5,
+  "distribusi_label": {
+    "address": 816,
+    "city": 266,
+    "state": 234,
+    "zip": 234
+  },
+  "hiperparameter": {
+    "embedding_dim": 100,
+    "hidden_dim": 128,
+    "dua_arah": true,
+    "epoch": 10,
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "optimizer": "Adam"
+  },
+  "catatan": "Pelatihan penuh memakai PyTorch dan torchcrf; peringkat akurasi pada tugas: CRF di bawah BiLSTM CRF di bawah Transformer"
+}
